@@ -19,7 +19,7 @@ kubernetes:
   cloud: il-ipp-blossom-prod-nbu-swx-ucx
   namespace: nbu-swx-ucx
   limits: "{memory: 8Gi, cpu: 4000m}"
-  requests: "{memory: 8Gi, cpu: 4000m}"
+  requests: "{memory: 256Mi, cpu: 100m}"
 
 credentials:
   - {credentialsId: 'ucx_harbor_credentials', usernameVariable: 'REPO_USER', passwordVariable: 'REPO_PASS'}
